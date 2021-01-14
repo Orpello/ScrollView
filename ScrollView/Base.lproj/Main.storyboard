@@ -52,16 +52,16 @@
             </objects>
             <point key="canvasLocation" x="1089.8550724637682" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Form View Controller-->
         <scene sceneID="uxA-Dx-ioA">
             <objects>
-                <viewController id="gek-eI-pMP" customClass="ViewController" customModule="ScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gek-eI-pMP" customClass="FormViewController" customModule="ScrollView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2K-4D-ktT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1096"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DT7-fZ-VoH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="DT7-fZ-VoH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1018"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DY7-4S-YVT">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="924"/>
@@ -295,6 +295,10 @@
                             <constraint firstItem="DT7-fZ-VoH" firstAttribute="top" secondItem="buQ-us-Mms" secondAttribute="top" id="vhR-6G-8ZD"/>
                         </constraints>
                     </view>
+                    <size key="freeformSize" width="414" height="1096"/>
+                    <connections>
+                        <outlet property="formScrollView" destination="DT7-fZ-VoH" id="duZ-QY-CCE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YHU-sZ-dzm" sceneMemberID="firstResponder"/>
             </objects>
