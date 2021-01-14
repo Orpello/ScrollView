@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "107459186-beautiful-panoramic-landscape-of-big-sur-and-its-rocky-coastline-on-a-sunny-day-california-usa.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
